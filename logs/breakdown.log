@@ -1,0 +1,96 @@
+INFO 2025-03-11 20:05:56,520 autoreload 5728 139995945665152 Watching for file changes with StatReloader
+INFO 2025-03-11 20:05:59,708 autoreload 5760 140517853758080 Watching for file changes with StatReloader
+ERROR 2025-03-11 20:06:16,147 exception 5728 139995900737280 Invalid HTTP_HOST header: 'lhptkn-8000.csb.app'. You may need to add 'lhptkn-8000.csb.app' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/project/sandbox/user-workspace/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/project/sandbox/user-workspace/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+  File "/project/sandbox/user-workspace/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/project/sandbox/user-workspace/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'lhptkn-8000.csb.app'. You may need to add 'lhptkn-8000.csb.app' to ALLOWED_HOSTS.
+WARNING 2025-03-11 20:06:16,191 log 5728 139995900737280 Bad Request: /
+WARNING 2025-03-11 20:06:16,192 basehttp 5728 139995900737280 "GET / HTTP/1.1" 400 92765
+ERROR 2025-03-11 20:06:21,004 exception 5728 139995900737280 Invalid HTTP_HOST header: 'lhptkn-8000.csb.app'. You may need to add 'lhptkn-8000.csb.app' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/project/sandbox/user-workspace/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/project/sandbox/user-workspace/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+  File "/project/sandbox/user-workspace/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/project/sandbox/user-workspace/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'lhptkn-8000.csb.app'. You may need to add 'lhptkn-8000.csb.app' to ALLOWED_HOSTS.
+WARNING 2025-03-11 20:06:21,040 log 5728 139995900737280 Bad Request: /favicon.ico
+WARNING 2025-03-11 20:06:21,040 basehttp 5728 139995900737280 "GET /favicon.ico HTTP/1.1" 400 92529
+INFO 2025-03-11 20:06:43,063 autoreload 6003 139953411736192 Watching for file changes with StatReloader
+INFO 2025-03-11 20:06:43,365 basehttp 5728 139995900737280 "GET / HTTP/1.1" 302 0
+INFO 2025-03-11 20:06:43,373 basehttp 5728 139995900737280 "GET /breakdown/ HTTP/1.1" 200 4622
+INFO 2025-03-11 20:06:45,487 autoreload 6123 140531623121536 Watching for file changes with StatReloader
+INFO 2025-03-11 20:06:45,568 autoreload 6124 140423938908800 Watching for file changes with StatReloader
+WARNING 2025-03-11 20:06:45,668 log 5728 139995900737280 Not Found: /favicon.ico
+WARNING 2025-03-11 20:06:45,669 basehttp 5728 139995900737280 "GET /favicon.ico HTTP/1.1" 404 2518
+INFO 2025-03-11 20:06:45,849 autoreload 6147 140088558977664 Watching for file changes with StatReloader
+INFO 2025-03-11 20:07:01,954 autoreload 6226 139952988910208 Watching for file changes with StatReloader
+ERROR 2025-03-11 20:07:06,817 exception 5728 139995900737280 Invalid HTTP_HOST header: 'lhptkn-8000.csb.app'. You may need to add 'lhptkn-8000.csb.app' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/project/sandbox/user-workspace/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/project/sandbox/user-workspace/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+  File "/project/sandbox/user-workspace/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/project/sandbox/user-workspace/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'lhptkn-8000.csb.app'. You may need to add 'lhptkn-8000.csb.app' to ALLOWED_HOSTS.
+WARNING 2025-03-11 20:07:06,854 log 5728 139995900737280 Bad Request: /
+WARNING 2025-03-11 20:07:06,855 basehttp 5728 139995900737280 "GET / HTTP/1.1" 400 92869
+ERROR 2025-03-11 20:07:09,114 exception 5728 139995900737280 Invalid HTTP_HOST header: 'lhptkn-8000.csb.app'. You may need to add 'lhptkn-8000.csb.app' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/project/sandbox/user-workspace/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/project/sandbox/user-workspace/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+  File "/project/sandbox/user-workspace/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/project/sandbox/user-workspace/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'lhptkn-8000.csb.app'. You may need to add 'lhptkn-8000.csb.app' to ALLOWED_HOSTS.
+WARNING 2025-03-11 20:07:09,151 log 5728 139995900737280 Bad Request: /favicon.ico
+WARNING 2025-03-11 20:07:09,152 basehttp 5728 139995900737280 "GET /favicon.ico HTTP/1.1" 400 92529
+INFO 2025-03-11 20:07:14,396 autoreload 5728 139995945665152 /project/sandbox/user-workspace/breakdown_management/settings.py changed, reloading.
+INFO 2025-03-11 20:07:14,634 autoreload 6298 140241258611328 Watching for file changes with StatReloader
+INFO 2025-03-11 20:07:28,756 basehttp 6298 140241213642496 "GET / HTTP/1.1" 302 0
+INFO 2025-03-11 20:07:29,119 basehttp 6298 140241213642496 "GET /breakdown/ HTTP/1.1" 200 4622
+WARNING 2025-03-11 20:07:31,688 log 6298 140241213642496 Not Found: /favicon.ico
+WARNING 2025-03-11 20:07:31,689 basehttp 6298 140241213642496 "GET /favicon.ico HTTP/1.1" 404 2523
+INFO 2025-03-11 20:07:35,126 basehttp 6298 140241213642496 "GET /breakdown/breakdowns/new/ HTTP/1.1" 200 8434
+INFO 2025-03-11 20:07:41,255 basehttp 6298 140241204201216 "GET / HTTP/1.1" 302 0
+INFO 2025-03-11 20:07:41,261 basehttp 6298 140241204201216 "GET /breakdown/ HTTP/1.1" 200 4622
+WARNING 2025-03-11 20:07:41,424 log 6298 140241204201216 Not Found: /favicon.ico
+WARNING 2025-03-11 20:07:41,425 basehttp 6298 140241204201216 "GET /favicon.ico HTTP/1.1" 404 2518
+INFO 2025-03-11 20:07:43,719 autoreload 6557 140679208682112 Watching for file changes with StatReloader
+INFO 2025-03-11 20:07:44,091 autoreload 6561 140499251208832 Watching for file changes with StatReloader
+INFO 2025-03-11 20:07:56,123 basehttp 6298 140241204201216 "GET /breakdown/breakdowns/new/ HTTP/1.1" 200 8434
+WARNING 2025-03-11 20:09:22,387 log 6298 140241213642496 Forbidden (Origin checking failed - https://lhptkn-8000.csb.app does not match any trusted origins.): /breakdown/breakdowns/new/
+WARNING 2025-03-11 20:09:22,388 basehttp 6298 140241213642496 "POST /breakdown/breakdowns/new/ HTTP/1.1" 403 2560
+INFO 2025-03-11 20:10:51,773 autoreload 7276 139801144365696 Watching for file changes with StatReloader
+INFO 2025-03-11 20:10:57,307 basehttp 6298 140241213642496 "GET / HTTP/1.1" 302 0
+INFO 2025-03-11 20:10:57,592 basehttp 6298 140241213642496 "GET /breakdown/ HTTP/1.1" 200 4622
+INFO 2025-03-11 20:11:01,721 basehttp 6298 140241213642496 "GET /breakdown/breakdowns/new/ HTTP/1.1" 200 8434
+WARNING 2025-03-11 20:11:26,467 log 6298 140241213642496 Forbidden (Origin checking failed - https://lhptkn-8000.csb.app does not match any trusted origins.): /breakdown/breakdowns/new/
+WARNING 2025-03-11 20:11:26,467 basehttp 6298 140241213642496 "POST /breakdown/breakdowns/new/ HTTP/1.1" 403 2560
+INFO 2025-03-11 20:11:54,204 autoreload 6298 140241258611328 /project/sandbox/user-workspace/breakdown_management/settings.py changed, reloading.
+INFO 2025-03-11 20:11:54,477 autoreload 7516 139849130812032 Watching for file changes with StatReloader
+INFO 2025-03-11 20:12:28,552 basehttp 7516 139849085867776 "GET / HTTP/1.1" 302 0
+INFO 2025-03-11 20:12:28,859 basehttp 7516 139849085867776 "GET /breakdown/ HTTP/1.1" 200 4622
+INFO 2025-03-11 20:12:31,142 basehttp 7516 139849085867776 "GET /breakdown/breakdowns/new/ HTTP/1.1" 200 8406
+INFO 2025-03-11 20:12:45,123 basehttp 7516 139849085867776 "POST /breakdown/breakdowns/new/ HTTP/1.1" 302 0
+INFO 2025-03-11 20:12:45,507 basehttp 7516 139849085867776 "GET /breakdown/breakdowns/ HTTP/1.1" 200 5964
+INFO 2025-03-11 20:12:55,143 basehttp 7516 139849085867776 "GET /breakdown/ HTTP/1.1" 200 5708
+INFO 2025-03-11 20:12:58,310 basehttp 7516 139849085867776 "GET /breakdown/breakdowns/new/ HTTP/1.1" 200 8406
+INFO 2025-03-11 20:13:01,900 basehttp 7516 139849085867776 "GET /breakdown/breakdowns/ HTTP/1.1" 200 5964
+INFO 2025-03-11 20:13:06,247 basehttp 7516 139849085867776 "GET /breakdown/breakdowns/new/ HTTP/1.1" 200 8406
