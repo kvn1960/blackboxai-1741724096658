@@ -1,0 +1,63 @@
+{% extends 'breakdown/base.html' %}
+
+{% block title %}Delete Breakdown Report{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body text-center">
+                <i class="fas fa-exclamation-triangle text-warning fa-3x mb-3"></i>
+                <h3 class="card-title">Confirm Deletion</h3>
+                <p class="card-text">
+                    Are you sure you want to delete the breakdown report for
+                    <strong>{{ breakdown.vehicle_make }} {{ breakdown.vehicle_model }}</strong>
+                    ({{ breakdown.license_plate }})?
+                </p>
+                <p class="text-muted mb-4">This action cannot be undone.</p>
+
+                <form method="post">
+                    {% csrf_token %}
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-danger">
+                            <i class="fas fa-trash"></i> Delete Breakdown Report
+                        </button>
+                        <a href="{% url 'breakdown_detail' breakdown.pk %}" class="btn btn-outline-secondary">
+                            <i class="fas fa-times"></i> Cancel
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Breakdown Summary -->
+        <div class="card mt-4">
+            <div class="card-header bg-white">
+                <h5 class="card-title mb-0">Report Summary</h5>
+            </div>
+            <div class="card-body">
+                <dl class="row mb-0">
+                    <dt class="col-sm-4">Vehicle:</dt>
+                    <dd class="col-sm-8">{{ breakdown.vehicle_make }} {{ breakdown.vehicle_model }}</dd>
+
+                    <dt class="col-sm-4">License Plate:</dt>
+                    <dd class="col-sm-8">{{ breakdown.license_plate }}</dd>
+
+                    <dt class="col-sm-4">Status:</dt>
+                    <dd class="col-sm-8">
+                        <span class="badge {% if breakdown.status == 'reported' %}bg-warning{% elif breakdown.status == 'in_progress' %}bg-info{% else %}bg-success{% endif %}">
+                            {{ breakdown.status|title }}
+                        </span>
+                    </dd>
+
+                    <dt class="col-sm-4">Reported:</dt>
+                    <dd class="col-sm-8">{{ breakdown.reported_time|date:"M d, Y H:i" }}</dd>
+
+                    <dt class="col-sm-4">Location:</dt>
+                    <dd class="col-sm-8">{{ breakdown.breakdown_location }}</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
